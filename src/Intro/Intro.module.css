@@ -1,0 +1,15 @@
+.profilePhoto {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.name {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(65, 100, 163);
+}
