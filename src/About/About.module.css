@@ -1,7 +1,6 @@
 .main {
   margin-top: 15vw;
-  margin-bottom: 15vw;
-  height: 100wh;
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -9,7 +8,7 @@
 }
 
 .textContent {
-  width: 50vw;
+  width: 50%;
   height: 100%;
   text-align: center;
 }
@@ -20,10 +19,11 @@
 }
 
 .heading {
-  font-size: 40px;
+  font-size: 36px;
+  color: rgb(140, 54, 180);
 }
 
 .illustration {
-  height: 40wh;
-  width: 40vw;
+  height: auto;
+  width: 40%;
 }

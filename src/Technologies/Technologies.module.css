@@ -1,0 +1,28 @@
+.main {
+  margin: 0;
+
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustration {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.textContent {
+  height: 60vh;
+  width: 45%;
+  margin-top: -30px;
+}
+.textContent h1 {
+  margin: 0;
+}
+
+.headings {
+  text-align: center;
+}

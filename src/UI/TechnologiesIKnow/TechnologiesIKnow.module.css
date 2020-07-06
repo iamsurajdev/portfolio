@@ -1,0 +1,18 @@
+.technologies {
+  width: fit-content;
+  margin: auto;
+}
+
+.technologies div {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.Icon {
+  height: 25px;
+  width: 25px;
+}
+
+.technologyNames {
+  font-size: 20px;
+}
