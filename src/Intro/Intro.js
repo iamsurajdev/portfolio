@@ -5,8 +5,9 @@ import photo from "../Assets/images/profile.jpg";
 const Intro = () => {
   return (
     <div className="main">
-      <img src={photo} alt="photo" className={classes.profilePhoto} />
+      <img src={photo} alt="profile" className={classes.profilePhoto} />
       <h1 className={classes.name}>Suraj Biswas</h1>
+      <p className={classes.selfTaught}>Self-taught Programmer</p>
     </div>
   );
 };

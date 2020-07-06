@@ -1,9 +1,15 @@
 import React from "react";
+import classes from "./About.module.css";
 
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
+    <div className={classes.main}>
+      <div className={classes.textContent}>
+        <h1 className={classes.heading}>About Me</h1>
+      </div>
+      <div className={classes.illustration}>
+        <h1>illustration</h1>
+      </div>
     </div>
   );
 };

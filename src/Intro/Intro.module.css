@@ -1,3 +1,7 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+}
 .profilePhoto {
   display: block;
   height: 200px;
@@ -12,4 +16,12 @@
   text-align: center;
   font-weight: bold;
   color: rgb(65, 100, 163);
+  font-size: 70px;
+  margin: 0;
+}
+
+.selfTaught {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
 }
