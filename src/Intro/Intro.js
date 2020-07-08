@@ -7,7 +7,7 @@ const Intro = () => {
     <div className="main">
       <img src={photo} alt="profile" className={classes.profilePhoto} />
       <p className={classes.introText}>
-        A Self-taught Programmer, who love to code.
+        A Self-taught Programmer, Who Love to code.
       </p>
       <p className={classes.welcomeText}>Welcome to my Portfolio</p>
     </div>

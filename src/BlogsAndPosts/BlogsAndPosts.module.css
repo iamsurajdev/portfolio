@@ -1,0 +1,53 @@
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component {
+  width: 45%;
+  height: auto;
+}
+.component h1 {
+  text-align: center;
+}
+
+.subHeading {
+  text-align: center;
+}
+
+.linksDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  margin: 20px 40px;
+  text-align: center;
+}
+.link a {
+  color: rgb(32, 107, 117);
+  font-size: 40px;
+}
+.link a:hover {
+  color: rgb(45, 143, 156);
+}
+
+.sideNoteDiv {
+  font-size: 20px;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.imgDiv {
+  width: 50%;
+  height: auto;
+}
+.imgDiv img {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 100%;
+}

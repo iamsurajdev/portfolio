@@ -1,6 +1,5 @@
 .main {
   margin: 0;
-
   padding: 0;
   height: 100%;
   width: 100%;
@@ -11,13 +10,17 @@
 
 .illustration {
   width: 50%;
-  margin-top: 30px;
+  height: auto;
+}
+
+.illustration img {
+  width: 100%;
+  height: 100%;
 }
 
 .textContent {
   height: 60vh;
   width: 45%;
-  margin-top: -30px;
 }
 .textContent h1 {
   margin: 0;

@@ -57,51 +57,6 @@ const Projects = () => {
           gitHubUrl="https://github.com/surajbiswas367"
           projectName="First Project"
         />
-        <Card
-          imgUrl={photo}
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-        consectetur numquam consequuntur eligendi, tempora doloribus labore
-        delectus tempore rem? Eaque."
-          websiteUrl="https://www.google.com/"
-          gitHubUrl="https://github.com/surajbiswas367"
-          projectName="First Project"
-        />
-        <Card
-          imgUrl={photo}
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-        consectetur numquam consequuntur eligendi, tempora doloribus labore
-        delectus tempore rem? Eaque."
-          websiteUrl="https://www.google.com/"
-          gitHubUrl="https://github.com/surajbiswas367"
-          projectName="First Project"
-        />
-        <Card
-          imgUrl={photo}
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-        consectetur numquam consequuntur eligendi, tempora doloribus labore
-        delectus tempore rem? Eaque."
-          websiteUrl="https://www.google.com/"
-          gitHubUrl="https://github.com/surajbiswas367"
-          projectName="First Project"
-        />
-        <Card
-          imgUrl={photo}
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-        consectetur numquam consequuntur eligendi, tempora doloribus labore
-        delectus tempore rem? Eaque."
-          websiteUrl="https://www.google.com/"
-          gitHubUrl="https://github.com/surajbiswas367"
-          projectName="First Project"
-        />
-        <Card
-          imgUrl={photo}
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-        consectetur numquam consequuntur eligendi, tempora doloribus labore
-        delectus tempore rem? Eaque."
-          websiteUrl="https://www.google.com/"
-          gitHubUrl="https://github.com/surajbiswas367"
-          projectName="First Project"
-        />
       </div>
     </div>
   );

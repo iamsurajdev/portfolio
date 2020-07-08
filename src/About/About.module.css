@@ -27,3 +27,7 @@
   height: auto;
   width: 40%;
 }
+.illustration img {
+  height: 100%;
+  width: 100%;
+}

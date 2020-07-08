@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./About.module.css";
-import AboutMeSvg from "../UI/AboutMeSvg";
+import AboutMeImage from "../Assets/images/projectPictures/AboutMe.png";
 
 const About = () => {
   return (
@@ -23,7 +23,7 @@ const About = () => {
         </p>
       </div>
       <div className={classes.illustration}>
-        <AboutMeSvg />
+        <img src={AboutMeImage} alt="AboutMeImage" />
       </div>
     </div>
   );
