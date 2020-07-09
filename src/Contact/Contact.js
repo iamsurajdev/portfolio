@@ -13,14 +13,27 @@ const Contact = () => {
 
       {/* personal contact */}
       <div className={classes.personalInfoDiv}>
-        <p>E-mail: surajbiswas367@gmail.com / Mobile: +91 8017378004</p>
+        <p>
+          {" "}
+          <span role="img" aria-label="smile">
+            📧
+          </span>
+          : surajbiswas367@gmail.com /{" "}
+          <span role="img" aria-label="smile">
+            ☎️
+          </span>
+          : +91 8017378004
+        </p>
       </div>
 
       {/* amening text  */}
       <div className={classes.text}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi nihil
-        labore vitae blanditiis amet omnis natus quibusdam exercitationem atque
-        optio!
+        {" "}
+        Have an opportunity for me, want to discuss any project, or Interested
+        in working together? <br /> Feel free to reach out to me in case{" "}
+        <span role="img" aria-label="smile">
+          😉
+        </span>{" "}
       </div>
 
       {/* icons  */}

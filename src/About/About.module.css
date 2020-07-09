@@ -1,5 +1,5 @@
 .main {
-  margin-top: 15vw;
+  margin-top: 100px;
   height: 100%;
   width: 100%;
   display: flex;
@@ -11,6 +11,7 @@
   width: 50%;
   height: 100%;
   text-align: center;
+  margin-top: -100px;
 }
 
 .textContent p {
@@ -20,7 +21,7 @@
 
 .heading {
   font-size: 36px;
-  color: rgb(140, 54, 180);
+  color: rgb(65, 100, 163);
 }
 
 .illustration {

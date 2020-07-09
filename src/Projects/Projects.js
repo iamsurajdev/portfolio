@@ -3,7 +3,7 @@ import classes from "./Projects.module.css";
 import Card from "../UI/Card/Card";
 
 // for testing will change after testing
-import photo from "../Assets/images/myAvatar.png";
+import photo from "../Assets/images/photoForProjects/coronaTracker.png";
 
 const Projects = () => {
   return (
@@ -14,49 +14,19 @@ const Projects = () => {
       <div className={classes.cardsDiv}>
         <Card
           imgUrl={photo}
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-        consectetur numquam consequuntur eligendi, tempora doloribus labore
-        delectus tempore rem? Eaque."
-          websiteUrl="https://www.google.com/"
-          gitHubUrl="https://github.com/surajbiswas367"
-          projectName="First Project"
+          description="This website i build with an public API. It shows all deaths recoveries and current infected people, Globally and Country wise. In this website you can see data through numbers and charts."
+          websiteUrl="https://coronatrackerbysurajdev.netlify.app/"
+          gitHubUrl="https://github.com/surajbiswas367/corona-tracker-"
+          projectName="Corona Tracker App"
         />
-        <Card
-          imgUrl={photo}
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-        consectetur numquam consequuntur eligendi, tempora doloribus labore
-        delectus tempore rem? Eaque."
-          websiteUrl="https://www.google.com/"
-          gitHubUrl="https://github.com/surajbiswas367"
-          projectName="First Project"
-        />
-        <Card
-          imgUrl={photo}
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-        consectetur numquam consequuntur eligendi, tempora doloribus labore
-        delectus tempore rem? Eaque."
-          websiteUrl="https://www.google.com/"
-          gitHubUrl="https://github.com/surajbiswas367"
-          projectName="First Project"
-        />
-        <Card
-          imgUrl={photo}
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-        consectetur numquam consequuntur eligendi, tempora doloribus labore
-        delectus tempore rem? Eaque."
-          websiteUrl="https://www.google.com/"
-          gitHubUrl="https://github.com/surajbiswas367"
-          projectName="First Project"
-        />
-        <Card
-          imgUrl={photo}
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-        consectetur numquam consequuntur eligendi, tempora doloribus labore
-        delectus tempore rem? Eaque."
-          websiteUrl="https://www.google.com/"
-          gitHubUrl="https://github.com/surajbiswas367"
-          projectName="First Project"
-        />
+      </div>
+      <div className={classes.hopeDiv}>
+        <h2>
+          More projects will come real soon
+          <span role="img" aria-label="smile">
+            😄
+          </span>
+        </h2>
       </div>
     </div>
   );

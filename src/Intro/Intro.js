@@ -7,9 +7,18 @@ const Intro = () => {
     <div className="main">
       <img src={photo} alt="profile" className={classes.profilePhoto} />
       <p className={classes.introText}>
-        A Self-taught Programmer, Who Love to code.
+        A Self-taught Programmer, Who{" "}
+        <span role="img" aria-label="heart">
+          ❤️
+        </span>{" "}
+        to code.
       </p>
-      <p className={classes.welcomeText}>Welcome to my Portfolio</p>
+      <p className={classes.welcomeText}>
+        Welcome to my Portfolio{" "}
+        <span role="img" aria-label="smile">
+          😊
+        </span>
+      </p>
     </div>
   );
 };

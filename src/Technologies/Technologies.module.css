@@ -24,6 +24,10 @@
 }
 .textContent h1 {
   margin: 0;
+  color: rgb(65, 100, 163);
+}
+.textContent p {
+  margin-top: 5px;
 }
 
 .headings {

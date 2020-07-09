@@ -5,6 +5,7 @@ import Technologies from "./Technologies/Technologies";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 import BlogsAndPosts from "./BlogsAndPosts/BlogsAndPosts";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Projects />
       <BlogsAndPosts />
       <Contact />
+      <Footer />
     </div>
   );
 }

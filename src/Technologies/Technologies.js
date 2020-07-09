@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Technologies.module.css";
 
-import TechnologiesImage from "../Assets/images/projectPictures/Technology.png";
+import TechnologiesImage from "../Assets/images/DecorativeImages/Technology.png";
 
 import TechnologiesIKnow from "../UI/TechnologiesIKnow/TechnologiesIKnow";
 

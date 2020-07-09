@@ -6,7 +6,7 @@
 .heading {
   text-align: center;
   margin: 0;
-  color: rgb(153, 81, 187);
+  color: rgb(65, 100, 163);
   font-size: 20px;
 }
 
@@ -17,4 +17,16 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.hopeDiv {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+  background-color: rgb(65, 100, 163);
+  border-radius: 5px;
+}
+.hopeDiv h2 {
+  color: #fff;
+  padding: 10px;
 }
