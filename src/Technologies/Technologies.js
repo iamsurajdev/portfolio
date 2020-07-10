@@ -12,12 +12,14 @@ const Technologies = () => {
         <img src={TechnologiesImage} alt="TechnologiesImage" />
       </div>
       <div className={classes.textContent}>
-        <div className={classes.headings}>
-          <h1>Technologies</h1>
-          <p>I am Comfortable with</p>
-        </div>
+        <div className={classes.textContentHelper}>
+          <div className={classes.headings}>
+            <h1>Technologies</h1>
+            <p>I am Comfortable with</p>
+          </div>
 
-        <TechnologiesIKnow />
+          <TechnologiesIKnow />
+        </div>
       </div>
     </div>
   );

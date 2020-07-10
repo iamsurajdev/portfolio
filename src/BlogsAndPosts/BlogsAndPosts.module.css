@@ -37,7 +37,7 @@
 
 .sideNoteDiv {
   font-size: 20px;
-  width: 600px;
+  width: 80%;
   margin: auto;
   text-align: center;
 }
@@ -51,4 +51,15 @@
   margin: auto;
   width: 90%;
   height: 100%;
+}
+
+@media screen and (max-width: 760px) {
+  .imgDiv {
+    display: none;
+  }
+  .component {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
 }

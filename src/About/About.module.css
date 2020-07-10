@@ -32,3 +32,24 @@
   height: 100%;
   width: 100%;
 }
+
+@media screen and (max-width: 760px) {
+  .main {
+    margin-top: 30px;
+  }
+  .illustration {
+    display: none;
+  }
+  .textContent {
+    margin: 0;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 20px;
+  }
+  .textContent {
+    width: 100%;
+  }
+}

@@ -10,3 +10,12 @@
 .link {
   text-decoration: none;
 }
+
+@media screen and (max-width: 760px) {
+  .main {
+    width: 90%;
+    margin-bottom: 20px;
+    height: 100%;
+    font-size: 17px;
+  }
+}

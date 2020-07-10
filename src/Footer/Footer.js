@@ -14,6 +14,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
         className={classes.link}
+        style={{ fontWeight: "bold" }}
       >
         Suraj Biswas
       </a>{" "}
@@ -23,6 +24,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
         className={classes.link}
+        style={{ fontWeight: "bold" }}
       >
         ReactJS
       </a>{" "}
@@ -32,6 +34,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
         className={classes.link}
+        style={{ fontWeight: "bold" }}
       >
         Netlify
       </a>

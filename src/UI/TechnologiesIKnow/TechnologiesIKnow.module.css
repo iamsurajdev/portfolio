@@ -16,3 +16,14 @@
 .technologyNames {
   font-size: 20px;
 }
+
+@media screen and (max-width: 780px) {
+  .Icon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .technologyNames {
+    font-size: 18px;
+  }
+}

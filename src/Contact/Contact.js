@@ -26,7 +26,7 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* amening text  */}
+      {/* amazing text  */}
       <div className={classes.text}>
         {" "}
         Have an opportunity for me, want to discuss any project, or Interested

@@ -30,3 +30,9 @@
   color: #fff;
   padding: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  .hopeDiv h2 {
+    font-size: 20px;
+  }
+}

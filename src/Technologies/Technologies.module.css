@@ -19,8 +19,11 @@
 }
 
 .textContent {
-  height: 60vh;
+  height: 100%;
   width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .textContent h1 {
   margin: 0;
@@ -32,4 +35,23 @@
 
 .headings {
   text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+  .main {
+    margin-top: 60px;
+  }
+  .illustration {
+    display: none;
+  }
+  .textContent {
+    width: 70%;
+  }
+  .textContent h1 {
+    font-size: 40px;
+    margin: 0;
+    color: rgb(65, 100, 163);
+  }
+}
+@media screen and (max-width: 480px) {
 }

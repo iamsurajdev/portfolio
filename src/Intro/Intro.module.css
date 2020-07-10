@@ -27,3 +27,15 @@
   font-weight: bold;
   color: rgb(65, 119, 163);
 }
+
+@media screen and (max-width: 480px) {
+  .introText {
+    font-size: 25px;
+    margin-bottom: 7px;
+    width: 90%;
+    margin: auto;
+  }
+  .welcomeText {
+    font-size: 15px;
+  }
+}
