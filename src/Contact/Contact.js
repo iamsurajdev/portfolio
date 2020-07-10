@@ -30,7 +30,7 @@ const Contact = () => {
       <div className={classes.text}>
         {" "}
         Have an opportunity for me, want to discuss any project, or Interested
-        in working together? <br /> Feel free to reach out to me in case{" "}
+        in working together? <br /> Feel free to reach out to me in any case{" "}
         <span role="img" aria-label="smile">
           😉
         </span>{" "}
