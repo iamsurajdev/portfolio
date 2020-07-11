@@ -3,7 +3,8 @@ import classes from "./Projects.module.css";
 import Card from "../UI/Card/Card";
 
 // for testing will change after testing
-import photo from "../Assets/images/photoForProjects/coronaTracker.png";
+import coronaTrackerPhoto from "../Assets/images/photoForProjects/coronaTracker.png";
+import colorlyPhoto from "../Assets/images/photoForProjects/colorly.png";
 
 const Projects = () => {
   return (
@@ -13,11 +14,18 @@ const Projects = () => {
       </div>
       <div className={classes.cardsDiv}>
         <Card
-          imgUrl={photo}
+          imgUrl={coronaTrackerPhoto}
           description="This website i build with an public API. It shows all deaths recoveries and current infected people, Globally and Country wise. In this website you can see data through numbers and charts."
           websiteUrl="https://coronatrackerbysurajdev.netlify.app/"
           gitHubUrl="https://github.com/surajbiswas367/corona-tracker-"
           projectName="Corona Tracker App"
+        />
+        <Card
+          imgUrl={colorlyPhoto}
+          description="Colorly is all in one colour picker, you can make custom colours or pick popular colours or take colours from shade cards also"
+          websiteUrl="https://colorlybysurajdev.netlify.app/"
+          gitHubUrl="https://github.com/surajbiswas367/Colorly"
+          projectName="Colorly"
         />
       </div>
       <div className={classes.hopeDiv}>
