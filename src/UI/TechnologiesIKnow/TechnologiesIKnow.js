@@ -2,6 +2,8 @@ import React from "react";
 import classes from "./TechnologiesIKnow.module.css";
 import { Icon } from "@iconify/react";
 import reactIcon from "@iconify/icons-logos/react";
+import expressIcon from "@iconify/icons-logos/express";
+import mongodbIcon from "@iconify/icons-logos/mongodb";
 import reduxIcon from "@iconify/icons-logos/redux";
 import javascriptIcon from "@iconify/icons-logos/javascript";
 import nodejsIcon from "@iconify/icons-logos/nodejs-icon";
@@ -20,13 +22,22 @@ const TechnologiesIKnow = () => {
         <Icon className={classes.Icon} icon={reduxIcon} />
         <span className={classes.technologyNames}> - Redux</span>
       </div>
-      <div>
-        <Icon className={classes.Icon} icon={javascriptIcon} />
-        <span className={classes.technologyNames}> - JavaScript</span>
-      </div>
+
       <div>
         <Icon className={classes.Icon} icon={nodejsIcon} />
         <span className={classes.technologyNames}> - NodeJs</span>
+      </div>
+      <div>
+        <Icon className={classes.Icon} icon={expressIcon} />
+        <span className={classes.technologyNames}> - ExpressJs</span>
+      </div>
+      <div>
+        <Icon className={classes.Icon} icon={mongodbIcon} />
+        <span className={classes.technologyNames}> - MongoDB</span>
+      </div>
+      <div>
+        <Icon className={classes.Icon} icon={javascriptIcon} />
+        <span className={classes.technologyNames}> - JavaScript(Es6)</span>
       </div>
       <div>
         <Icon className={classes.Icon} icon={html5} />
