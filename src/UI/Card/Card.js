@@ -15,22 +15,26 @@ const Card = (props) => {
         <div className={classes.overlay}>
           <p className={classes.description}>{props.description}</p>
           <div className={classes.linksDiv}>
-            <a
-              className={classes.links}
-              href={props.websiteUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icon icon={adminSiteAlt3} />
-            </a>
-            <a
-              className={classes.links}
-              href={props.gitHubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icon icon={githubOutlined} />
-            </a>
+            {props.haveWebsite && (
+              <a
+                className={classes.links}
+                href={props.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon icon={adminSiteAlt3} />
+              </a>
+            )}
+            {props.haveGithub && (
+              <a
+                className={classes.links}
+                href={props.gitHubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon icon={githubOutlined} />
+              </a>
+            )}
           </div>
         </div>
       </div>
