@@ -2,6 +2,21 @@
   height: 100%;
   width: 100%;
 }
+
+.topBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.topBar a {
+  margin-right: 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(59, 52, 90);
+  padding: 2px 5px;
+}
+
 .profilePhoto {
   display: block;
   height: 300px;
@@ -9,7 +24,7 @@
   border-radius: 50%;
   border: 1px solid #000;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .introText {
