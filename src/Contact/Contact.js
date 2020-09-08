@@ -47,7 +47,7 @@ const Contact = () => {
           <Icon icon={linkedinFilled} />
         </a>
         <a
-          href="https://github.com/surajbiswas367"
+          href="https://github.com/iamsurajdev"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.icon}
@@ -56,7 +56,7 @@ const Contact = () => {
         </a>
 
         <a
-          href="https://www.instagram.com/iamsuraj.pt/"
+          href="https://www.instagram.com/iamsuraj_dev/"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.icon}
