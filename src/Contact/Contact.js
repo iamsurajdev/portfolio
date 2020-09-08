@@ -4,6 +4,7 @@ import { Icon } from "@iconify/react";
 import linkedinFilled from "@iconify/icons-ant-design/linkedin-filled";
 import githubOutlined from "@iconify/icons-ant-design/github-outlined";
 import instagramFilled from "@iconify/icons-ant-design/instagram-filled";
+import youtubeFilled from "@iconify/icons-ant-design/youtube-filled";
 
 const Contact = () => {
   return (
@@ -62,6 +63,15 @@ const Contact = () => {
           className={classes.icon}
         >
           <Icon icon={instagramFilled} />
+        </a>
+
+        <a
+          href="https://www.youtube.com/channel/UClS_wbN0kW0KtVop9EgZLAg"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.icon}
+        >
+          <Icon icon={youtubeFilled} />
         </a>
       </div>
     </div>
