@@ -28,7 +28,7 @@ const Projects = () => {
           haveWebsite={true}
           haveGithub={true}
           description="Colorly is all in one colour picker, you can make custom colours or pick popular colours or take colours from shade cards also"
-          websiteUrl="https://colorlybysurajdev.netlify.app/"
+          websiteUrl="https://colorlyui.netlify.app/"
           gitHubUrl="https://github.com/surajbiswas367/Colorly"
           projectName="Colorly"
         />
