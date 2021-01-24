@@ -1,11 +1,11 @@
 import React from "react";
-import classes from "./Technologies.module.css";
+import classes from "./Work.module.css";
 
 import TechnologiesImage from "../Assets/images/DecorativeImages/Technology.png";
 
 import TechnologiesIKnow from "../UI/TechnologiesIKnow";
 
-const Technologies = () => {
+const Work = () => {
   return (
     <div className={classes.main}>
       <div className={classes.illustration}>
@@ -25,4 +25,4 @@ const Technologies = () => {
   );
 };
 
-export default Technologies;
+export default Work;
