@@ -14,8 +14,7 @@ const Work = () => {
       <div className={classes.textContent}>
         <div className={classes.textContentHelper}>
           <div className={classes.headings}>
-            <h1>Technologies</h1>
-            <p>I am Comfortable with</p>
+            <h1>I work with</h1>
           </div>
 
           <TechnologiesIKnow />
