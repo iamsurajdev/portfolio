@@ -52,18 +52,19 @@ const Intro = () => {
         to code.
       </p>
       <p className={classes.welcomeText}>
-        Hello,{" "}
-        {locationInfo && capCityName
-          ? "i think you are from " +
-            capCityName +
-            "(" +
-            locationInfo.country_code +
-            ")"
-          : null}{" "}
-        , Welcome to my Portfolio{" "}
+        Welcome to my Portfolio{" "}
         <span role="img" aria-label="smile">
           😊
-        </span>
+        </span>{" "}
+        , How is the wether{" "}
+        <span role="img" aria-label="smile">
+          🌤️
+        </span>{" "}
+        in{" "}
+        {locationInfo && capCityName
+          ? capCityName + "(" + locationInfo.country_code + ")"
+          : "your city"}{" "}
+        ?
       </p>
     </div>
   );
