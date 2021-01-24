@@ -3,7 +3,7 @@ import classes from "./Technologies.module.css";
 
 import TechnologiesImage from "../Assets/images/DecorativeImages/Technology.png";
 
-import TechnologiesIKnow from "../UI/TechnologiesIKnow/TechnologiesIKnow";
+import TechnologiesIKnow from "../UI/TechnologiesIKnow";
 
 const Technologies = () => {
   return (

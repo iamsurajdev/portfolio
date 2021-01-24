@@ -1,11 +1,11 @@
 import React from "react";
-import Intro from "./Intro/Intro";
-import About from "./About/About";
-import Technologies from "./Technologies/Technologies";
-import Projects from "./Projects/Projects";
-import Contact from "./Contact/Contact";
-import BlogsAndPosts from "./BlogsAndPosts/BlogsAndPosts";
-import Footer from "./Footer/Footer";
+import Intro from "./Intro";
+import About from "./About";
+import Technologies from "./Technologies";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import BlogsAndPosts from "./BlogsAndPosts";
+import Footer from "./Footer";
 
 function App() {
   return (

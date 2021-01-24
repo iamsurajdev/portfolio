@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Projects.module.css";
-import Card from "../UI/Card/Card";
+import Card from "../UI/Card";
 
 // for testing will change after testing
 import coronaTrackerPhoto from "../Assets/images/photoForProjects/coronaTracker.png";
