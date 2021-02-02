@@ -19,8 +19,16 @@ const About = () => {
           when I first introduced to code my interest find a way to expand.
         </p>
         <p>
-          I love to create, learn, and teach people. Other than code I like Art,
-          Human biology, Producing music, Indian Mysticism, computer hardware.
+          As a self taught programmer, I have to learn everything by myself no
+          college no teacher no friends from coding background. I have only one
+          hope that i can become a Programmer. So it's not easy but not
+          impossible. I hope people in future time take self-taught as an option
+          of learning.
+        </p>
+        <p>
+          Other than code, i love to create, learn, and teach people. Other than
+          code I like Art, Human biology, Producing music, Indian Mysticism,
+          computer hardware.
         </p>
       </div>
       <div className={classes.illustration}>

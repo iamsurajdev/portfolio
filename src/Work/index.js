@@ -1,20 +1,20 @@
 import React from "react";
 import classes from "./Work.module.css";
 
-import TechnologiesImage from "../Assets/images/DecorativeImages/Technology.png";
+// import TechnologiesImage from "../Assets/images/DecorativeImages/Technology.png";
 
 import TechnologiesIKnow from "../UI/TechnologiesIKnow";
 
 const Work = () => {
   return (
     <div className={classes.main}>
-      <div className={classes.illustration}>
+      {/* <div className={classes.illustration}>
         <img src={TechnologiesImage} alt="TechnologiesImage" />
-      </div>
+      </div> */}
       <div className={classes.textContent}>
         <div className={classes.textContentHelper}>
           <div className={classes.headings}>
-            <h1>I work with</h1>
+            <h1>My tech stack</h1>
           </div>
 
           <TechnologiesIKnow />

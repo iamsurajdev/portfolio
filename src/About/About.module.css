@@ -15,8 +15,10 @@
 }
 
 .textContent p {
-  width: 70%;
+  width: 80%;
   margin: auto;
+  margin-top: 10px;
+  font-weight: 500;
 }
 
 .heading {
