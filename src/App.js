@@ -3,7 +3,7 @@ import Intro from "./Intro";
 import About from "./About";
 // import Projects from "./Projects";
 import Contact from "./Contact";
-import BlogsAndPosts from "./BlogsAndPosts";
+import OtherThanCode from "./OtherThanCode";
 import Footer from "./Footer";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Intro />
       <About />
       {/* <Projects /> */}
-      <BlogsAndPosts />
+      <OtherThanCode />
       <Contact />
       <Footer />
     </div>

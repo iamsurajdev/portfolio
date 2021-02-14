@@ -25,11 +25,6 @@ const About = () => {
           impossible. I hope people in future time take self-taught as an option
           of learning.
         </p>
-        <p>
-          Other than code, i love to create, learn, and teach people. Other than
-          code I like Art, Human biology, Producing music, Indian Mysticism,
-          computer hardware.
-        </p>
       </div>
       <div className={classes.illustration}>
         <img src={AboutMeImage} alt="AboutMeImage" />
