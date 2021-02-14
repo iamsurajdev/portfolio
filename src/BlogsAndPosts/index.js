@@ -8,6 +8,9 @@ import BlogImage from "../Assets/images/DecorativeImages/Blog.png";
 const BlogsAndPosts = () => {
   return (
     <div className={classes.main}>
+      <div className={classes.imgDiv}>
+        <img src={BlogImage} alt="blog" />
+      </div>
       <div className={classes.component}>
         <h1>Blogs and Posts</h1>
         <div className={classes.sideNoteDiv}>
@@ -64,9 +67,6 @@ const BlogsAndPosts = () => {
             <p>Posts</p>
           </div>
         </div>
-      </div>
-      <div className={classes.imgDiv}>
-        <img src={BlogImage} alt="blog" />
       </div>
     </div>
   );

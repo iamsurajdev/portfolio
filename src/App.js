@@ -1,7 +1,7 @@
 import React from "react";
 import Intro from "./Intro";
 import About from "./About";
-import Projects from "./Projects";
+// import Projects from "./Projects";
 import Contact from "./Contact";
 import BlogsAndPosts from "./BlogsAndPosts";
 import Footer from "./Footer";
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Intro />
       <About />
-      <Projects />
+      {/* <Projects /> */}
       <BlogsAndPosts />
       <Contact />
       <Footer />
