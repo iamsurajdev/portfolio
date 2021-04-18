@@ -56,7 +56,7 @@ const Intro = () => {
         <span role="img" aria-label="smile">
           😊
         </span>{" "}
-        , How is the wether{" "}
+        , How is the weather{" "}
         <span role="img" aria-label="smile">
           🌤️
         </span>{" "}
