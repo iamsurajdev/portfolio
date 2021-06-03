@@ -5,6 +5,7 @@ import linkedinFilled from "@iconify/icons-ant-design/linkedin-filled";
 import githubOutlined from "@iconify/icons-ant-design/github-outlined";
 import instagramFilled from "@iconify/icons-ant-design/instagram-filled";
 import youtubeFilled from "@iconify/icons-ant-design/youtube-filled";
+import mediumCircleFilled from "@iconify-icons/ant-design/medium-circle-filled";
 
 const Contact = () => {
   return (
@@ -72,6 +73,14 @@ const Contact = () => {
           className={classes.icon}
         >
           <Icon icon={youtubeFilled} />
+        </a>
+        <a
+          href="https://medium.com/@iamsurajdev"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.icon}
+        >
+          <Icon icon={mediumCircleFilled} />
         </a>
       </div>
     </div>
