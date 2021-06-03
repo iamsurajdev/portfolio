@@ -20,7 +20,11 @@ const Contact = () => {
           <span role="img" aria-label="smile">
             📧
           </span>
-          : surajbiswas367@gmail.com /{" "}
+          :
+          <a href="mailto: surajbiswas367@gmail.com">
+            surajbiswas367@gmail.com
+          </a>
+          /{" "}
           <span role="img" aria-label="smile">
             ☎️
           </span>
