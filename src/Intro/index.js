@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classes from "./Intro.module.css";
-import photo from "../Assets/images/myAvatar.png";
+import photo from "../Assets/images/profilePhoto.png";
 import axios from "axios";
 
 const Intro = () => {
