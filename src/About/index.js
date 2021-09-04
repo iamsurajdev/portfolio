@@ -14,16 +14,16 @@ const About = () => {
           .
         </h1>
         <p>
-          I'm from Kolkata, India. I start learning programming from the start
-          of 2020. From my childhood, I have a huge interest in technology, and
-          when I first introduced to code my interest find a way to expand.
+          I'm from Kolkata, India. I start learning programming at the start of
+          2020. From my childhood, I have had a huge interest in technology, and
+          when I was first introduced to code my interest find a way to expand.
         </p>
         <p>
-          As a self taught programmer, I have to learn everything by myself no
-          college no teacher no friends from coding background. I have only one
-          hope that i can become a Programmer. So it's not easy but not
-          impossible. I hope people in future time take self-taught as an option
-          of learning.
+          As a self-taught programmer, I learned everything by myself no college
+          no teacher no friends from a coding background. I had only one hope
+          that I can become a Programmer one day. And today I am working as a
+          Software Developer. So it's not easy but not impossible. I hope people
+          in future time take self-taught as an option of learning.
         </p>
       </div>
       <div className={classes.illustration}>
