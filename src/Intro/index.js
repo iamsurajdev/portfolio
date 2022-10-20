@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classes from "./Intro.module.css";
-import photo from "../Assets/images/profilePhoto.png";
+import photo from "../Assets/images/profilePhoto.JPEG";
 import axios from "axios";
 
 const Intro = () => {
@@ -37,14 +37,17 @@ const Intro = () => {
     <div className={classes.main}>
       <img src={photo} alt="profile" className={classes.profilePhoto} />
       <p className={classes.introText}>
-        A Self-taught Programmer, Who{" "}
+        A Self-taught Programmer and a curious thinker {" "}
         <span role="img" aria-label="heart">
-          ❤️
+          🧠
         </span>{" "}
-        to code.
+        {" "}
+        <span role="img" aria-label="heart">
+          💭
+        </span>{" "}
       </p>
       <p className={classes.welcomeText}>
-        Welcome to my Portfolio{" "}
+        Welcome to my website{" "}
         <span role="img" aria-label="smile">
           😊
         </span>{" "}
